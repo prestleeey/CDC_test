@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/popup_border"
+    android:paddingTop="50dp"
+    android:paddingBottom="50dp">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_path_create"
+        android:width="200dp"
+        android:height="40dp"
+        android:padding="4dp"
+        android:background="@drawable/edit_text_border"
+        android:hint="Название пути"
+        android:textColorHint="@color/colorBlue"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/btn_path_create"/>
+
+    <Button
+        android:id="@+id/btn_path_create"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:height="40dp"
+        android:background="@color/colorBlue"
+        android:text="Создать"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/name_path_create"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

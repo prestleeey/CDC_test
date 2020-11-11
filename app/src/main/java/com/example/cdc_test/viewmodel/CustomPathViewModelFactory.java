@@ -25,5 +25,5 @@ public class CustomPathViewModelFactory implements ViewModelProvider.Factory {
             return (T) new PathViewModel(repository);
         }
         throw new IllegalArgumentException("Unknown ViewModel class");
-    }j
+    }
 }

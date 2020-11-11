@@ -11,7 +11,7 @@ import javax.inject.Singleton;
 
 @Singleton
 public class CustomPathViewModelFactory implements ViewModelProvider.Factory {
-    PathRepository repository;fdfdfd
+    PathRepository repository;
 
     @Inject
     public CustomPathViewModelFactory(PathRepository repository) {
